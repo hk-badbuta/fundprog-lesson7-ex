@@ -1,0 +1,50 @@
+body {
+  background: #20262e;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+#canvas {
+  background: #333;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+}
+
+.line {
+  white-space: nowrap;
+  line-height: 0;
+}
+
+.block {
+  display: inline-block;
+  background: #ffffff20;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.wall {
+  background: #0084ff;
+}
+
+.actor {
+  background: green;
+}
+
+.light-off {
+  background: #ffffff20;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.light-on {
+  background: orange;
+}
